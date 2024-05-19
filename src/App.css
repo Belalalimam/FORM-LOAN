@@ -1,0 +1,40 @@
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #007474;
+  box-shadow: 10 10 black;
+  margin-bottom: 30px;
+}
+.font{
+  font-size: 70px;
+  box-shadow: 10 30 black
+}
+.Left{
+  border: 5px solid #007474;
+  max-width: 270px;
+  height: 380px;
+  margin: 20px;
+}
+
+.btn{
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+.btn:hover{
+  background-color: blue;
+}
+.all_post{
+  display: flex;
+  justify-content: center;
+}
+.post{
+  border: 5px solid #007474;
+  width: 700px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 10px;
+}
