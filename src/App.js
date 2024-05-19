@@ -13,13 +13,6 @@ const App = () => {
       <div className='all_post'>
       <div className=''>
       <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
       </div>
       <Left />
       </div>

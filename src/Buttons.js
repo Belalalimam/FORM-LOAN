@@ -1,17 +1,9 @@
 import React from 'react'
 
-const Buttons = () => {
+const Buttons = ({children}) => {
   return (
     <div className='all_btn'>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
-      <button className='btn'>Tag Button</button>
+      <button className='btn'>{children}</button>
     </div>
   )
 }

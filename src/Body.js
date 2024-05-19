@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Body = () => {
+const Body = ({lung, age}) => {
   return (
     <div>
-      <p> This is the post body </p>
+      <p> {lung} </p>
+      <p> {age} </p>
     </div>
   )
 }

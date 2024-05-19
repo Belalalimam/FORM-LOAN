@@ -6,9 +6,10 @@ const Post = () => {
   return (
     <div >
       <div className='post'>
-      <Title />
+      <Title name="belal">
+      </Title>
       <hr />
-      <Body />
+      <Body lung="2" age="19" />
       </div>
     </div>
   )
